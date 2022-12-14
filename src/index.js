@@ -57,11 +57,9 @@ class Board extends React.Component {
 class Square extends React.Component {
     constructor(props) {
         super(props);
-          console.log(props);
         this.state = {
-            value: null,
+            value: "Y",
         };
-        console.log(this.state)
     }
     
   render() {
